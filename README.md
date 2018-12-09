@@ -24,6 +24,8 @@ $ python3 -m venv env
 $ source env/bin/activate
 $ pip install -r requirements.txt
 $ python main.py
+```
+
 でローカルでサーバが起動できる。可能であれば、このサーバにMailgunからのPOSTが届くようにすればテストしやすい。
 
-GAEへのデプロイなどは、GAEドキュメントを参照。
+GAEへのデプロイなどは、app.yamlを使用。詳細は、GAEドキュメントを参照。
